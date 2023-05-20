@@ -16,14 +16,16 @@ struct Questions: Codable {
     let optionlist: Options
     // 問題番号
   let questionNo: Int
+  //正解の番号
+  let correctedAnswer: Int
   }
 
 struct Options: Codable {
-    let answers: [Answer]
+    let options: [Answer]
 }
 
 struct Answer: Codable, Identifiable {
-    let answer: String
+    let option: String
     let id: Int
 }
 

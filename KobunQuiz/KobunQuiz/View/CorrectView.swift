@@ -9,7 +9,12 @@ import SwiftUI
 
 struct CorrectView: View {
     var body: some View {
-        Text("正解や")
+        ZStack{
+         Image("backpic").resizable()  .aspectRatio(contentMode: .fill)
+                .ignoresSafeArea()
+                .opacity(0.5)
+            Text("正解や")
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

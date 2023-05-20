@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14000B862A1925ED005A7EAE /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14000B852A1925ED005A7EAE /* TestView.swift */; };
 		140E97B929DA75E0008D9F5B /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E97B829DA75E0008D9F5B /* QuestionsView.swift */; };
 		14512EA029DA6D75004F5BF5 /* KobunQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14512E9F29DA6D75004F5BF5 /* KobunQuizApp.swift */; };
 		14512EA229DA6D75004F5BF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14512EA129DA6D75004F5BF5 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14000B852A1925ED005A7EAE /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		140E97B629DA74AA008D9F5B /* question.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = question.json; sourceTree = "<group>"; };
 		140E97B829DA75E0008D9F5B /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
 		14512E9C29DA6D75004F5BF5 /* KobunQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KobunQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,7 @@
 			children = (
 				14512EA129DA6D75004F5BF5 /* ContentView.swift */,
 				140E97B829DA75E0008D9F5B /* QuestionsView.swift */,
+				14000B852A1925ED005A7EAE /* TestView.swift */,
 				149E321F29E0653A00D52D1A /* CorrectView.swift */,
 				149E321D29E0647600D52D1A /* HintView.swift */,
 				14A0F2B329DCEEE9005C47C6 /* HomeView.swift */,
@@ -184,6 +187,7 @@
 				14A0F2B429DCEEE9005C47C6 /* HomeView.swift in Sources */,
 				14512EA029DA6D75004F5BF5 /* KobunQuizApp.swift in Sources */,
 				14A0F2B629DCF1D6005C47C6 /* TextUpRightView.swift in Sources */,
+				14000B862A1925ED005A7EAE /* TestView.swift in Sources */,
 				14A0F2B829DCF73D005C47C6 /* TestContentView.swift in Sources */,
 				149E322029E0653A00D52D1A /* CorrectView.swift in Sources */,
 				149E321E29E0647600D52D1A /* HintView.swift in Sources */,
