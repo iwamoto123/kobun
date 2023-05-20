@@ -12,8 +12,10 @@ struct HomeView: View {
         NavigationView{
             NavigationLink(destination: QuestionsView()){
             ZStack{
-                LinearGradient(gradient: Gradient(colors: [.white, .blue]), startPoint: .top, endPoint: .bottom)
+                Image("backpic").resizable()  .aspectRatio(contentMode: .fill)
                     .ignoresSafeArea()
+                    .opacity(0.5)
+                
                 Text("スタート").font(.largeTitle)
                     .padding(20)
                     .foregroundColor(.white)

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		140E97B929DA75E0008D9F5B /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E97B829DA75E0008D9F5B /* QuestionsView.swift */; };
-		1416635D2A13D719005F4FF5 /* a.json in Resources */ = {isa = PBXBuildFile; fileRef = 1416635C2A13D719005F4FF5 /* a.json */; };
 		14512EA029DA6D75004F5BF5 /* KobunQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14512E9F29DA6D75004F5BF5 /* KobunQuizApp.swift */; };
 		14512EA229DA6D75004F5BF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14512EA129DA6D75004F5BF5 /* ContentView.swift */; };
 		14512EA429DA6D78004F5BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14512EA329DA6D78004F5BF5 /* Assets.xcassets */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		140E97B629DA74AA008D9F5B /* question.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = question.json; sourceTree = "<group>"; };
 		140E97B829DA75E0008D9F5B /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
-		1416635C2A13D719005F4FF5 /* a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = a.json; sourceTree = "<group>"; };
 		14512E9C29DA6D75004F5BF5 /* KobunQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KobunQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14512E9F29DA6D75004F5BF5 /* KobunQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobunQuizApp.swift; sourceTree = "<group>"; };
 		14512EA129DA6D75004F5BF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				140E97B629DA74AA008D9F5B /* question.json */,
-				1416635C2A13D719005F4FF5 /* a.json */,
 				140E97B729DA74D1008D9F5B /* View */,
 				14512EAF29DA7032004F5BF5 /* Model */,
 				14512E9F29DA6D75004F5BF5 /* KobunQuizApp.swift */,
@@ -171,7 +168,6 @@
 				14512EA729DA6D78004F5BF5 /* Preview Assets.xcassets in Resources */,
 				149E321B29E0543500D52D1A /* question.json in Resources */,
 				14512EA429DA6D78004F5BF5 /* Assets.xcassets in Resources */,
-				1416635D2A13D719005F4FF5 /* a.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
